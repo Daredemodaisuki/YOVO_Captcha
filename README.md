@@ -14,14 +14,14 @@ Add codes in `YOVO_Captcha/models/C2fFaster.py` to `your_env/ultralytics/nn/modu
 
 Then registrate the module:
 
-Edit `your_env/ultralytics/nn/modules/block.py`
+* Edit `your_env/ultralytics/nn/modules/block.py`
 ```python
 __all__ = ("DFL", "HGBlock", "HGStem", "SPP", ...,
     "C2F_Faster",  # add
 )
 ```
 
-Edit `your_env/ultralytics/nn/modules/__init__.py`
+* Edit `your_env/ultralytics/nn/modules/__init__.py`
 ```python
 from .block import (C1, C2, C2PSA, C3, ...,
     C2f_Faster,  # add
@@ -33,7 +33,7 @@ __all__ = ("Conv", "Conv2", "LightConv", "RepConv", ...,
 )
 ```
 
-Edit `your_env/ultralytics/nn/tasks.py`
+* Edit `your_env/ultralytics/nn/tasks.py`
 ```python
 from ultralytics.nn.modules import (AIFI, C1, C2, C2PSA, ...,
     C2f_Faster,  # add
