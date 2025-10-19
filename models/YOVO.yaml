@@ -1,10 +1,14 @@
 # Based on Ultralytics: AGPL-3.0 License - https://ultralytics.com/license
 
 # Parameters
-nc: 62 # number of classes (a-z, A-Z, 0-9; nc=29 set in the data.yaml of upgraded Ganji Dataset)
+nc: 62 # number of classes
+# nc=62 set in the data.yaml of Dataset A and B (a-z, A-Z, 0-9)
+# nc=29 set in the data.yaml of upgraded Ganji Dataset (a-h, k-n, p, r-w, y, z, 2-9)
+# nc=26 set in the data.yaml of upgraded WP Dataset (a-z)
+
 scales: # model compound scaling constants
   # [depth, width, max_channels]
-  n: [0.33, 0.25, 1024] # YOLOv8n summary: 104 layers, 828,204 parameters, 828,188 gradients, 5.3 GFLOPs
+  n: [0.33, 0.25, 1024] # YOLOv8n summary: 104 layers, 828,204 parameters, 828,188 gradients, 5.3 GFLOPs (input 640×640)
 
 # backbone
 backbone:
