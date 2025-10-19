@@ -61,6 +61,7 @@ Now you could train the model with the architecture file, or use provided weight
   * Dataset B: Synthetic variable-length 3-6 character CAPTCHA dataset (including 9 sub-parts).
   * Upgraded Ganji: Real-world Ganji CAPTCHA Dataset upgraded from [here](https://github.com/SJTU-dxw/semi-supervised-for-captcha/tree/main).
     * Ganji_buchong: Annotations and images of unlabeled samples in the original Ganji Dataset.
+  * Upgraded Wikipedia: Real-world Wikipedia CAPTCHA Dataset upgraded from [here](https://github.com/SJTU-dxw/CaptchaSAM/tree/main).
 
 The model can be trained or used with Ultralytics' official apis. Example codes:
 * Train the model
