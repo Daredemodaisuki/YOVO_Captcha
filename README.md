@@ -1,5 +1,7 @@
 This is the repository of You Only Verify Once (YOVO) model, providing the model (and its weights) and the datasets.
 
+Paper → [DOI: 10.1109/Trustcom66490.2025.00158](doi.org/10.1109/Trustcom66490.2025.00158)
+
 YOVO is a lightweight CAPTCHA recognition model based on [YOLOv8n](https://github.com/ultralytics/ultralytics),
 reformulating CAPTCHA recognition problem as a pure object detection task.
 
